@@ -1,121 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="normalize.css">
-    <title>Foinni</title>
-</head>
-<body>
-    <div class="wrapper">
-        <div class="container">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Foinni</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
             <header class="header">
-                <div class="header__logo">
-                    <a href="index.html">
-                        <img src="img/logo.png" alt="Logo">
-                    </a>
-                </div>
-                <div class="header__nav">
-                    <nav>
-                        <ul class="l-nav">
-                            <li class="l-nav__item"><a href="#" class="l-nav__link">Home</a></li>
-                            <li class="l-nav__item"><a href="#" class="l-nav__link">Service</a></li>
-                            <li class="l-nav__item"><a href="#" class="l-nav__link">Parking</a></li>
-                            <li class="l-nav__item"><a href="#" class="l-nav__link">Portfolio</a></li>
-                            <li class="l-nav__item"><a href="#" class="l-nav__link">Contact us</a></li>
-                        </ul>
-                    </nav>
+                <div class="container">
+                    <div class="header__inner">
+                        <div class="header__logo">
+                            <a href="index.html">
+                                <img src="img/logo.png" alt="Logo">
+                            </a>
+                        </div>
+                        <nav class="header__nav">
+                            <ul class="l-nav">
+                                <li class="l-nav__item">
+                                    <a href="#" class="l-nav__link">Home</a>
+                                </li>
+                                <li class="l-nav__item">
+                                    <a href="#" class="l-nav__link">Service</a>
+                                </li>
+                                <li class="l-nav__item">
+                                    <a href="#" class="l-nav__link">Parking</a>
+                                </li>
+                                <li class="l-nav__item">
+                                    <a href="#" class="l-nav__link">Portfolio</a>
+                                </li>
+                                <li class="l-nav__item">
+                                    <a href="#" class="l-nav__link">Contact us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </header>
+
+            <section class="s-main">
+                <div class="container">
+                    <h1 class="s-main__title">We Love <span>Foinni</span> Polapain</h1>
+                    <p class="s-main__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto error reiciendis cum quas eos aut deleniti sed ea dolor delectus dicta eaque aperiam tenetur </p>
+                </div>
+            </section>
+            <section class="s-services">
+                <div class="container">
+                    <h2 class="s-services__title">Welcome To <span>Foinni</span></h2>
+                    <p class="s-services__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolores dolorum eveniet odio quibusdam! Molestiae, officiis atque voluptatibus adipisci repudiandae earum blanditiis?</p>
+                    <ul class="l-services">
+                        <li class="l-services__item">
+                            <div class="l-services__cell">
+                                <img src="img/icon-code.png" alt="icon-code">
+                                <h3 class="l-services__title">Development</h3>
+                                <p class="l-services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex doloribus vitae facere </p>
+                            </div>
+                        </li>
+                        <li class="l-services__item">
+                            <div class="l-services__cell">
+                                <img src="img/icon-imac.png" alt="icon-code">
+                                <h3 class="l-services__title">Responsive</h3>
+                                <p class="l-services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex doloribus vitae facere  </p>
+                            </div>
+                        </li>
+                        <li class="l-services__item">
+                            <div class="l-services__cell">
+                                <img src="img/icon-wifi.png" alt="icon-code">
+                                <h3 class="l-services__title">Clean Design</h3>
+                                <p class="l-services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex doloribus vitae facere  </p>
+                            </div>
+                        </li>
+                        <li class="l-services__item">
+                            <div class="l-services__cell">
+                                <img src="img/icon-view.png" alt="icon-code">
+                                <h3 class="l-services__title">Graphic Design</h3>
+                                <p class="l-services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex doloribus vitae facere  </p>
+                            </div>
+                        </li>
+                        <li class="l-services__item">
+                            <div class="l-services__cell">
+                                <img src="img/icon-camera.png" alt="icon-code">
+                                <h3 class="l-services__title">Photography</h3>
+                                <p class="l-services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex doloribus vitae facere </p>
+                            </div>
+                        </li>
+                        <li class="l-services__item">
+                            <div class="l-services__cell">
+                                <img src="img/icon-brightness.png" alt="icon-code">
+                                <h3 class="l-services__title">Photo Editing</h3>
+                                <p class="l-services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex doloribus vitae facere  </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="s-team">
+                <div class="container">
+                    <h2 class="s-team__title">Meet Us</h2>
+                    <ul class="l-team">
+                        <li class="l-team__card">
+                            <img src="img/person.png" alt="photo" width="200">
+                            <div class="l-team__text-wrapper">
+                                <h4 class="l-team__name">Abida Foinni</h4>
+                                <p class="l-team__position">Photographer</p>
+                            </div>
+
+                        </li>
+                        <li class="l-team__card">
+                            <img src="img/person.png" alt="photo" width="200">
+                            <div class="l-team__text-wrapper">
+                                <h4 class="l-team__name">Abida Foinni</h4>
+                                <p class="l-team__position">Photographer</p>
+                            </div>
+
+                        </li>
+                        <li class="l-team__card">
+                            <img src="img/person.png" alt="photo" width="200">
+                            <div class="l-team__text-wrapper">
+                                <h4 class="l-team__name">Abida Foinni</h4>
+                                <p class="l-team__position">Photographer</p>
+                            </div>
+
+                        </li>
+                        <li class="l-team__card">
+                            <img src="img/person.png" alt="photo" width="200">
+                            <div class="l-team__text-wrapper">
+                                <h4 class="l-team__name">Abida Foinni</h4>
+                                <p class="l-team__position">Photographer</p>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <footer class="footer">
+                <p class="footer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </footer>
         </div>
-    </div>
-    <section class="s-main">
-        <div class="container">
-            <h1 class="s-main__title">We Love <span>Foinni</span> Polapain</h1>
-            <p class="s-main__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto error reiciendis cum quas eos aut deleniti sed ea dolor delectus dicta eaque aperiam tenetur </p>
-        </div>
-    </section>
-    <section class="s-services">
-        <div class="container">
-            <h2 class="s-services__title">Welcome To <span>Foinni</span></h2>
-            <p class="s-services__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolores dolorum eveniet odio quibusdam! Molestiae, officiis atque voluptatibus adipisci repudiandae earum blanditiis?</p>
-            <ul class="l-services">
-                <li class="l-services__item">
-                    <img src="img/icon-code.png" alt="icon-code">
-                    <h3 class="l-services__title">Development</h3>
-                    <p class="l-services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex doloribus vitae facere </p>
-                </li>
-                <li class="l-services__item">
-                    <img src="img/icon-imac.png" alt="icon-code">
-                    <h3 class="l-services__title">Responsive</h3>
-                    <p class="l-services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex doloribus vitae facere  </p>
-                </li>
-                <li class="l-services__item">
-                    <img src="img/icon-wifi.png" alt="icon-code">
-                    <h3 class="l-services__title">Clean Design</h3>
-                    <p class="l-services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex doloribus vitae facere  </p>
-                </li>
-                <li class="l-services__item">
-                    <img src="img/icon-view.png" alt="icon-code">
-                    <h3 class="l-services__title">Graphic Design</h3>
-                    <p class="l-services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex doloribus vitae facere  </p>
-                </li>
-                <li class="l-services__item">
-                    <img src="img/icon-camera.png" alt="icon-code">
-                    <h3 class="l-services__title">Photography</h3>
-                    <p class="l-services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex doloribus vitae facere </p>
-                </li>
-                <li class="l-services__item">
-                    <img src="img/icon-brightness.png" alt="icon-code">
-                    <h3 class="l-services__title">Photo Editing</h3>
-                    <p class="l-services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex doloribus vitae facere  </p>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class="s-team">
-        <div class="container">
-            <h2 class="s-team__title">Meet Us</h2>
-            <ul class="l-team">
-                <li class="l-team__card">
-                    <img src="img/person.png" alt="photo" width="200">
-                    <div class="l-team__text-wrapper">
-                        <h4 class="l-team__name">Abida Foinni</h4>
-                        <p class="l-team__position">Photographer</p>
-                    </div>
-                    
-                </li>
-                <li class="l-team__card">
-                    <img src="img/person.png" alt="photo" width="200">
-                    <div class="l-team__text-wrapper">
-                        <h4 class="l-team__name">Abida Foinni</h4>
-                        <p class="l-team__position">Photographer</p>
-                    </div>
-                    
-                </li>
-                <li class="l-team__card">
-                    <img src="img/person.png" alt="photo" width="200">
-                    <div class="l-team__text-wrapper">
-                        <h4 class="l-team__name">Abida Foinni</h4>
-                        <p class="l-team__position">Photographer</p>
-                    </div>
-                    
-                </li>
-                <li class="l-team__card">
-                    <img src="img/person.png" alt="photo" width="200">
-                    <div class="l-team__text-wrapper">
-                        <h4 class="l-team__name">Abida Foinni</h4>
-                        <p class="l-team__position">Photographer</p>
-                    </div>
-                    
-                </li>
-            </ul>
-        </div>
-    </section>
-    <footer class="footer">
-        <p class="footer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    </footer>
-</body>
+    </body>
 </html>
